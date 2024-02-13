@@ -154,7 +154,7 @@ playButton.addEventListener("click", () => {
 
 pauseButton.addEventListener("click",  pauseSong);
 
-  
+nextButton.addEventListener("click", playNextSong); 
 
 userData?.songs.sort((a,b) => {
   if (a.title < b.title) {
